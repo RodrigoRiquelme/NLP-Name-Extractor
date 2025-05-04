@@ -59,7 +59,7 @@ Response
 **max_tokens** is optional, determines how many meaningful tokens (excluding stopwords and units like "ml", "kg") will be extracted from the input to form the item_name, by default is 2.
 
 ### 🔍 Why This Exists
-In TF-IDF-based search engines like Solr, long product titles can dilute search relevance. This service extracts a clean, normalized item_name field to improve indexing and ranking precision.
+In TF-IDF-based search engines, long product titles can dilute search relevance. This service extracts a clean, normalized item_name field to improve indexing and ranking precision.
 
 
 ### 📄 License
